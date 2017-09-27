@@ -1,0 +1,24 @@
+html, body, #root {
+  height: 100%
+}
+
+#chat-window {
+  align-content: flex-end;
+  background-color: #333;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#chat-messages {
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  overflow: auto;
+  padding: 8px;
+}
+
+#chat-input {
+  padding: 4px;
+}
